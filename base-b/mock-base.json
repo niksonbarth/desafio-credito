@@ -1,0 +1,116 @@
+{
+  "34617785086": {
+    "idade": 34,
+    "lista_bens": [
+      {
+        "descricao": "Honda CG 150",
+        "valor": 6000.0
+      }
+    ],
+    "endereco": {
+      "logradouro": "Rua Tokuei Nakão",
+      "numero": 124,
+      "bairro": "Conjunto Aero Rancho",
+      "cidade": "Campo Grande",
+      "uf": "MS",
+      "cep": "79084-130"
+    },
+    "renda": {
+      "empresa_nome": "Enrico e Rayssa Advocacia ME",
+      "empresa_cnpj": "74.934.793/0001-52",
+      "salario": 2350.0
+    }
+  },
+  "81922027049": {
+    "idade": 28,
+    "lista_bens": [
+      {
+        "descricao": "Fiat Palio",
+        "valor": 18000.0
+      }
+    ],
+    "endereco": {
+      "logradouro": "Avenida Gerusa",
+      "numero": 741,
+      "bairro": "Renascer",
+      "cidade": "Macapá",
+      "uf": "AP",
+      "cep": "68907-110"
+    },
+    "renda": {
+      "empresa_nome": "Paulo e Thiago Construções Ltda",
+      "empresa_cnpj": "40.871.050/0001-69",
+      "salario": 3053.0
+    }
+  },
+  "03257018061": {
+    "idade": 40,
+    "lista_bens": [],
+    "endereco": {
+      "logradouro": "Rua Cinco",
+      "numero": 10,
+      "bairro": "Dona Rosarinha",
+      "cidade": "Santa Luzia",
+      "uf": "MG",
+      "cep": "33080-322"
+    },
+    "renda": {}
+  },
+  "66395617001": {
+    "idade": 53,
+    "lista_bens": [],
+    "endereco": {
+      "logradouro": "Rua José Francisco Alves",
+      "numero": 152,
+      "bairro": "Nova Divinéia",
+      "cidade": "Araranguá",
+      "uf": "SC",
+      "cep": "88905-228"
+    },
+    "renda": {
+      "empresa_nome": "Fernanda e Carla Entregas Expressas ME",
+      "empresa_cnpj": "04.050.724/0001-09",
+      "salario": 1980.0
+    }
+  },
+  "05160992057": {
+    "idade": 29,
+    "lista_bens": [
+      {
+        "descricao": "Honda Biz 125",
+        "valor": 3200.0
+      }
+    ],
+    "endereco": {
+      "logradouro": "Avenida Maria Aragão",
+      "numero": 346,
+      "bairro": "Aurora",
+      "cidade": "São Luís",
+      "uf": "MA",
+      "cep": "65063-849"
+    },
+    "renda": {
+      "empresa_nome": "Osvaldo e Francisco Buffet Ltda",
+      "empresa_cnpj": "45.069.845/0001-71",
+      "salario": 1580.0
+    }
+  },
+  "63197790049": {
+    "idade": 18,
+    "lista_bens": [
+      {
+        "descricao": "Honda Bros 125",
+        "valor": 1800.0
+      }
+    ],
+    "endereco": {
+      "logradouro": "Travessa Praia de Tóquio",
+      "numero": 341,
+      "bairro": "São Cristóvão",
+      "cidade": "Salvador",
+      "uf": "BA",
+      "cep": "41500-144"
+    },
+    "renda": {}
+  }
+}

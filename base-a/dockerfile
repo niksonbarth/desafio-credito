@@ -1,0 +1,12 @@
+FROM node:11 as base
+
+WORKDIR /api
+COPY package*.json ./
+RUN npm install
+COPY . .
+
+
+FROM node:11 as dev
+COPY --from=base /api /api
+WORKDIR /api
+CMD ["npm", "dev"]

@@ -1,0 +1,109 @@
+{
+  "34617785086": {
+    "nome": "Solange dos Reis",
+    "endereco": {
+      "logradouro": "Rua Tokuei Nakão",
+      "numero": 124,
+      "bairro": "Conjunto Aero Rancho",
+      "cidade": "Campo Grande",
+      "uf": "MS",
+      "cep": "79084-130"
+    },
+    "lista_divida": []
+  },
+  "81922027049": {
+    "nome": "Roberto Valencia",
+    "endereco": {
+      "logradouro": "Avenida Gerusa",
+      "numero": 741,
+      "bairro": "Renascer",
+      "cidade": "Macapá",
+      "uf": "AP",
+      "cep": "68907-110"
+    },
+    "lista_divida": [
+      {
+        "credor_cnpj": "98.819.527/0001-47",
+        "credor_nome": "Estofaria Arnaldo ME",
+        "valor": 1300.0
+      },
+      {
+        "credor_cnpj": "30.262.926/0001-16",
+        "credor_nome": "Help Informática ME",
+        "valor": 350.0
+      }
+    ]
+  },
+  "03257018061": {
+    "nome": "Sonia dos Reis",
+    "endereco": {
+      "logradouro": "Rua Cinco",
+      "numero": 10,
+      "bairro": "Dona Rosarinha",
+      "cidade": "Santa Luzia",
+      "uf": "MG",
+      "cep": "33080-322"
+    },
+    "lista_divida": [
+      {
+        "credor_cnpj": "30.262.926/0001-16",
+        "credor_nome": "Help Informática ME",
+        "valor": 753.0
+      }
+    ]
+  },
+  "66395617001": {
+    "nome": "Regina Raulino",
+    "endereco": {
+      "logradouro": "Rua José Francisco Alves",
+      "numero": 152,
+      "bairro": "Nova Divinéia",
+      "cidade": "Araranguá",
+      "uf": "SC",
+      "cep": "88905-228"
+    },
+    "lista_divida": [
+      {
+        "credor_cnpj": "62.918.637/0001-19",
+        "credor_nome": "Arvore Gráfica ME",
+        "valor": 150.5
+      }
+    ]
+  },
+  "05160992057": {
+    "nome": "Silvana Cláudia Allana Costa",
+    "endereco": {
+      "logradouro": "Avenida Maria Aragão",
+      "numero": 346,
+      "bairro": "Aurora",
+      "cidade": "São Luís",
+      "uf": "MA",
+      "cep": "65063-849"
+    },
+    "lista_divida": [
+      {
+        "credor_cnpj": "89.665.435/0001-69",
+        "credor_nome": "Bernardo e Emilly Construções ME",
+        "valor": 5100.0
+      }
+    ]
+  },
+  "63197790049": {
+    "nome": "Enzo Vieira",
+    "endereco": {
+      "logradouro": "Travessa Praia de Tóquio",
+      "numero": 341,
+      "bairro": "São Cristóvão",
+      "cidade": "Salvador",
+      "uf": "BA",
+      "cep": "41500-144"
+    },
+    "lista_divida": [
+      {
+        "credor_cnpj": "72.402.794/0001-20",
+        "credor_nome": "Bernardo e Emilly Construções ME",
+        "valor": 35.78
+      }
+    ]
+  }
+}

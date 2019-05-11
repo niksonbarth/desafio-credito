@@ -1,0 +1,95 @@
+{
+  "34617785086": {
+    "ultima_consulta": {
+      "data": "04-04-2019",
+      "empresa_nome": "Manuel e Lara Informática Ltda",
+      "empresa_cnpj": "11.843.588/0001-61"
+    },
+    "movimentacao": {
+      "tipo": "Financiamento",
+      "valor": 3000.0,
+      "empresa_nome": "Cooperativa de Credito"
+    },
+    "ultima_compra_credito": {
+      "data": "09-05-2019",
+      "valor": 37.5
+    }
+  },
+  "81922027049": {
+    "ultima_consulta": {
+      "data": "02-05-2019",
+      "empresa_nome": "Caroline e Adriana Informática Ltda",
+      "empresa_cnpj": "46.521.314/0001-30"
+    },
+    "movimentacao": {
+      "tipo": "Emprestimo",
+      "valor": 5500.0,
+      "empresa_nome": "Itaú SA"
+    },
+    "ultima_compra_credito": {
+      "data": "18-04-2019",
+      "valor": 350.0
+    }
+  },
+  "03257018061": {
+    "ultima_consulta": {
+      "data": "07-05-2019",
+      "empresa_nome": "João e Fernando Pizzaria Delivery ME",
+      "empresa_cnpj": "54.902.079/0001-75"
+    },
+    "movimentacao": {
+      "tipo": "Financiamento",
+      "valor": 15000.0,
+      "empresa_nome": "Banco do Brasil"
+    },
+    "ultima_compra_credito": {
+      "data": "03-03-2019",
+      "valor": 2000.0
+    }
+  },
+  "66395617001": {
+    "ultima_consulta": {
+      "data": "11-05-2019",
+      "empresa_nome": "Erick e Rafael Adega Ltda",
+      "empresa_cnpj": "02.487.068/0001-72"
+    },
+    "movimentacao": {
+      "tipo": "Emprestimo",
+      "valor": 2500.0,
+      "empresa_nome": "Cooperativa de Credito"
+    },
+    "ultima_compra_credito": {
+      "data": "28-04-2019",
+      "valor": 38.7
+    }
+  },
+  "05160992057": {
+    "ultima_consulta": {
+      "data": "08-05-2019",
+      "empresa_nome": "Nelson e Leandro Eletrônica Ltda",
+      "empresa_cnpj": "66.630.650/0001-29"
+    },
+    "movimentacao": {
+      "tipo": "Financiamento",
+      "valor": 8000.0,
+      "empresa_nome": "Itaú SA"
+    },
+    "ultima_compra_credito": {
+      "data": "08-05-2019",
+      "valor": 273.0
+    }
+  },
+  "63197790049": {
+    "ultima_consulta": {
+      "data": "02-02-2019",
+      "empresa_nome": "Erick e Sérgio Pizzaria ME",
+      "empresa_cnpj": "08.610.364/0001-03"
+    },
+    "movimentacao": {
+      "tipo": "Financiamento",
+      "valor": 1800.0,
+      "empresa_nome": "Cooperativa de Credito"
+    },
+    "ultima_compra_credito": {}
+  }
+}
