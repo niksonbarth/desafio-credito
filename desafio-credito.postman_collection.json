@@ -1,0 +1,230 @@
+{
+	"info": {
+		"_postman_id": "45e39da3-197d-4772-bdb4-8a993f26e6b7",
+		"name": " desafio-credito",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "situacao-login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"login\": \"admin\",\n    \"senha\": \"segredo\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "situacao-consulta",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "cpf",
+						"value": "81922027049",
+						"type": "text"
+					},
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbiI6ImFkbWluIiwiaWF0IjoxNTU3NzA5NzkxLCJleHAiOjE1NTc3MTAwOTF9.2l2h5reY0moZJfySCESNH1F2LNLyfTPrK9MgOdT1eYs",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:3000/situacaofinanceira",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"situacaofinanceira"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "bensrenda-login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"login\": \"admin\",\n    \"senha\": \"segredo\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3001/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "bensrenda-consulta",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "cpf",
+						"value": "81922027049",
+						"type": "text"
+					},
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbiI6ImFkbWluIiwiaWF0IjoxNTU3NzA5ODQwLCJleHAiOjE1NTc3MTAxNDB9.XyxRQKSwuQmgsY02X7XtySNSRMV_7C2nMoK8a3wcjiM",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:3001/bensrenda",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"bensrenda"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "rastreamento-login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"login\": \"admin\",\n    \"senha\": \"segredo\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3002/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "rastreamento-consulta",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "cpf",
+						"value": "81922027049",
+						"type": "text"
+					},
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbiI6ImFkbWluIiwiaWF0IjoxNTU3NzA5ODg5LCJleHAiOjE1NTc3MTAxODl9.aoGBMEMjkJSRJC0L3LeAMigre8RVW0AA2JpsPcJ2YTA",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:3002/rastreamento",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3002",
+					"path": [
+						"rastreamento"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "main-consulta",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:3003/graphql?query={\n  consultar_cpf(login: \"admin\", senha: \"segredo\", cpf: \"81922027049\") {\n    situacao {\n      cpf\n      nome\n      endereco {\n        logradouro\n        numero\n        bairro\n        cidade\n        uf\n        cep\n      }\n      lista_divida {\n        credor_cnpj\n        credor_nome\n        valor\n      }\n    }\n    bens_renda {\n      idade\n      lista_bens {\n        descricao\n        valor\n      }\n      endereco {\n        logradouro\n        numero\n        bairro\n        cidade\n        uf\n        cep\n      }\n      renda {\n        empresa_nome\n        empresa_cnpj\n        salario\n      }\n    }\n    rastreamento {\n      ultima_consulta {\n        data\n        empresa_nome\n        empresa_cnpj\n      }\n      movimentacao {\n        tipo\n        valor\n        empresa_nome\n      }\n      ultima_compra_credito {\n        data\n        valor\n      }\n    }\n  }\n}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3003",
+					"path": [
+						"graphql"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "{\n  consultar_cpf(login: \"admin\", senha: \"segredo\", cpf: \"81922027049\") {\n    situacao {\n      cpf\n      nome\n      endereco {\n        logradouro\n        numero\n        bairro\n        cidade\n        uf\n        cep\n      }\n      lista_divida {\n        credor_cnpj\n        credor_nome\n        valor\n      }\n    }\n    bens_renda {\n      idade\n      lista_bens {\n        descricao\n        valor\n      }\n      endereco {\n        logradouro\n        numero\n        bairro\n        cidade\n        uf\n        cep\n      }\n      renda {\n        empresa_nome\n        empresa_cnpj\n        salario\n      }\n    }\n    rastreamento {\n      ultima_consulta {\n        data\n        empresa_nome\n        empresa_cnpj\n      }\n      movimentacao {\n        tipo\n        valor\n        empresa_nome\n      }\n      ultima_compra_credito {\n        data\n        valor\n      }\n    }\n  }\n}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
