@@ -3,11 +3,9 @@
 const express = require("express");
 const expressValidator = require("express-validator");
 const bodyParser = require("body-parser");
-const config = require("./config");
 const cors = require("cors");
 const morgan = require("morgan");
 const app = express();
-const router = express.Router();
 
 const loginRoute = require("./routes/login-route");
 const rastreamentoRoute = require("./routes/rastreamento-route");

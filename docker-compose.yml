@@ -1,0 +1,45 @@
+version: "3.6"
+services:
+  base-a:
+    build: ./base-a
+    environment:
+      - PORT=3000
+      - TOKEN_KEY=b0cf066d-51db-4205-bced-de729b47d98b
+    ports:
+      - "3000:3000"
+    networks:
+      - production-network
+  base-b:
+    build: ./base-b
+    environment:
+      - PORT=3001
+      - TOKEN_KEY=b0cf066d-51db-4205-bced-de729b47d98b
+    ports:
+      - "3001:3001"
+    networks:
+      - production-network
+  base-c:
+    build: ./base-c
+    environment:
+      - PORT=3002
+      - TOKEN_KEY=b0cf066d-51db-4205-bced-de729b47d98b
+    ports:
+      - "3002:3002"
+    networks:
+      - production-network
+  main:
+    build: ./main
+    environment:
+      - PORT=3003
+    ports:
+      - "3003:3003"
+    networks:
+      - production-network
+    links:
+      - "base-a:basea"
+      - "base-b:baseb"
+      - "base-c:basec"
+
+networks:
+  production-network:
+    driver: bridge

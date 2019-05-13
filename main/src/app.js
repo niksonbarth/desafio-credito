@@ -6,9 +6,10 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const morgan = require("morgan");
 const app = express();
+const expressGraphql = require("express-graphql");
 
-const loginRoute = require("./routes/login-route");
-const situacaoRoute = require("./routes/situacao-route");
+const schema = require("./schemas/cpf-schema");
+const cpfResolver = require("./resolvers/cpf-resolver");
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -29,7 +30,13 @@ app.use(morgan());
 app.use(cors("*"));
 app.use(morgan("combined"));
 
-app.use("/", loginRoute);
-app.use("/", situacaoRoute);
+app.use(
+  "/graphql",
+  expressGraphql({
+    schema,
+    rootValue: cpfResolver.resolvers,
+    graphiql: true
+  })
+);
 
 module.exports = app;

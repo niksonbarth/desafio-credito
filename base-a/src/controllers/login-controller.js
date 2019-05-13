@@ -13,7 +13,7 @@ exports.login = async (req, res, next) => {
       });
     } else {
       let login = req.body.login;
-      let token = jwt.sign({ login }, "ABCDE", {
+      let token = jwt.sign({ login }, process.env.TOKEN_KEY, {
         expiresIn: 300
       });
 

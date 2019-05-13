@@ -1,12 +1,13 @@
-FROM node:11 as base
+FROM node:12-alpine as base
 
-WORKDIR /api
-COPY package*.json ./
-RUN npm install
+WORKDIR /base-a
 COPY . .
-
+RUN npm install --production
 
 FROM node:11 as dev
-COPY --from=base /api /api
-WORKDIR /api
-CMD ["npm", "dev"]
+
+WORKDIR /base-a
+COPY . .
+RUN npm install
+CMD ["npm", "run", "dev"]
+

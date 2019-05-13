@@ -5,24 +5,24 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./bin/server.js",
-    "dev": "nodemon ./bin/server.js",
-    "test": "mocha \"test/**/*.js\""
+    "dev": "nodemon ./bin/server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
     "body-parser": "^1.18.3",
     "cors": "^2.8.5",
     "express": "^4.16.4",
+    "express-graphql": "^0.8.0",
     "express-validator": "^5.3.1",
+    "graphql": "^14.3.0",
     "http": "0.0.0",
     "jsonwebtoken": "^8.3.0",
     "morgan": "^1.9.1"
   },
   "devDependencies": {
-    "mocha": "^6.1.4",
-    "nodemon": "^1.18.9",
-    "supertest": "^4.0.2"
+    "nodemon": "^1.18.9"
   }
 }

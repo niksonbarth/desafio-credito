@@ -15,7 +15,7 @@ exports.validate = [
     .trim()
     .escape()
     .custom(value => {
-      return jwt.verify(value, "ABCDE", function(err) {
+      return jwt.verify(value, process.env.TOKEN_KEY, function(err) {
         return err ? Promise.reject("O token está inválido") : true;
       });
     })
