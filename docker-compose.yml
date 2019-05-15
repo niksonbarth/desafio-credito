@@ -27,10 +27,18 @@ services:
       - "3002:3002"
     networks:
       - production-network
+  redis-cache:
+    image: redis:5.0.4-alpine
+    container_name: cache
+    expose:
+      - 6379
+    networks:
+      - production-network
   main:
     build: ./main
     environment:
       - PORT=3003
+      - REDIS_URL=redis://cache
     ports:
       - "3003:3003"
     networks:
@@ -39,6 +47,7 @@ services:
       - "base-a:basea"
       - "base-b:baseb"
       - "base-c:basec"
+      - "redis-cache:redis"
 
 networks:
   production-network:

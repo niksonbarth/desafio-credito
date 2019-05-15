@@ -4,7 +4,7 @@ A arquitetura desta solução, consiste em três aplicações (Base A, Base B e 
 
 As aplicações foram desenvolvidas em NodeJS com ExpressJS, disponibilizando seus dados através de API REST e Payload em formato JSON e a autenticação é através de JWT.
 
-A aplicação principal também é feita em NodeJS ExpressJS, porém seus dados são disponibilizados através do GraphQL, consultado as 3 aplicações anteriores. Dessa forma, uma aplicação Front-End poderia obter todas as informações que precisar, por exemplo.
+A aplicação principal também é feita em NodeJS e ExpressJS, porém seus dados são disponibilizados através do GraphQL, consultado as 3 aplicações anteriores, ou consultando uma base Redis utilizada como cache. Dessa forma, uma aplicação Front-End poderia obter todas as informações que precisar, por exemplo.
 
 Todas as aplicações rodam em containers Docker, sendo assim, posteriormente podem ser publicadas na nuvem.
 
